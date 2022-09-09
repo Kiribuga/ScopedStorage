@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host"
+    app:startDestination="@id/fragmentListVideo">
+
+    <fragment
+        android:id="@+id/fragmentListVideo"
+        android:name="com.example.scopedstorage.ui.listvideo.FragmentListVideo"
+        android:label="FragmentListVideo"
+        tools:layout="@layout/list_video_fragment">
+        <action
+            android:id="@+id/action_fragmentListVideo_to_addFragmentDialog"
+            app:destination="@id/addFragmentDialog" />
+    </fragment>
+    <dialog
+        android:id="@+id/addFragmentDialog"
+        android:name="com.example.scopedstorage.ui.dialogs.AddFragmentDialog"
+        android:label="AddFragmentDialog"
+        tools:layout="@layout/dialog_fragment_add_video" />
+</navigation>

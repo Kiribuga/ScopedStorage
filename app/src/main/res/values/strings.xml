@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Scoped Storage</string>
+    <string name="download_video">Загрузить \nвидео</string>
+    <string name="dload_video_dir">Загрузить видео \nс выбором папки</string>
+    <string name="add_video">Добавить видео</string>
+    <string name="input_title_video">Введите название видео</string>
+    <string name="url_video">Введите URL видео</string>
+    <string name="add">Добавить</string>
+    <string name="cancel">Отмена</string>
+</resources>
